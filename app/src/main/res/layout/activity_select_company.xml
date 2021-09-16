@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectCompanyActivity"
+    android:orientation="vertical"
+    android:background="@drawable/comany">
+
+    <androidx.appcompat.widget.Toolbar
+
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pureBlack"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+
+            android:id="@+id/BunkTech"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Bunk Tech"
+            android:textColor="@color/pureWhite"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:layout_centerInParent="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="left">
+
+
+        <RadioButton
+            android:id="@+id/MOKOKA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" MOKOKA"
+            android:gravity="left"/>
+
+        <RadioButton
+            android:id="@+id/SEABELO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEABELO"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="64dp" />
+
+        <RadioButton
+            android:id="@+id/NKKEXPRESS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NKK EXPRESS"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="96dp" />
+
+        <RadioButton
+            android:id="@+id/PANDA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PANDA"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="128dp" />
+
+        <RadioButton
+            android:id="@+id/BAMANGWATO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" BAMANGWATO"
+            tools:layout_editor_absoluteX="7dp"
+            tools:layout_editor_absoluteY="32dp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="126dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="308dp"
+        android:text="next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.71" />
+
+    <Button
+
+        android:id="@+id/back"
+        android:layout_width="130dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="308dp"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.943"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.71" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

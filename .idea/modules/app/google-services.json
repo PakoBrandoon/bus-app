@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "510399929426",
+    "firebase_url": "https://bunkt-87936.firebaseio.com",
+    "project_id": "bunkt-87936",
+    "storage_bucket": "bunkt-87936.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510399929426:android:b3e64d0723c0c1cd68138b",
+        "android_client_info": {
+          "package_name": "com.power.bunkTech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "510399929426-ukua8t1alpamdtuv337pjs5620kjrb6q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.power.bunkTech",
+            "certificate_hash": "44b617e38fa55911761065a22ae54b5279aa6e92"
+          }
+        },
+        {
+          "client_id": "510399929426-g9186aenhphp6dbcd0puekk42m0rcldu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZDDYNen7-wojAKXeRB4H0gRYINq0rQAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "510399929426-g9186aenhphp6dbcd0puekk42m0rcldu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

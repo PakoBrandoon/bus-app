@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DepartureActivity1"
+    android:background="@drawable/departure">
+
+    <androidx.appcompat.widget.Toolbar
+
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pureBlack"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.004">
+
+        <TextView
+
+            android:id="@+id/BunkTech"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Bunk Tech"
+            android:textColor="@color/pureWhite"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="104dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="131dp"
+        android:orientation="horizontal"
+        android:text="next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/back"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.908" />
+
+    <Button
+
+        android:id="@+id/back"
+        android:layout_width="104dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="131dp"
+        android:orientation="horizontal"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.947"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.906" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/Gaborone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gaborone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.001"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <RadioButton
+            android:id="@+id/Mochudi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mochudi"
+            app:layout_constraintTop_toBottomOf="@+id/Gaborone"
+            tools:layout_editor_absoluteX="2dp" />
+
+        <RadioButton
+            android:id="@+id/Mahalapye"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mahalapye"
+            app:layout_constraintTop_toBottomOf="@+id/Mochudi"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <RadioButton
+            android:id="@+id/Palapye"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Palapye"
+            app:layout_constraintTop_toBottomOf="@+id/Mahalapye"
+            tools:layout_editor_absoluteX="2dp" />
+
+        <RadioButton
+            android:id="@+id/Serowe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Serowe"
+            app:layout_constraintTop_toBottomOf="@+id/Palapye"
+            tools:layout_editor_absoluteX="2dp" />
+
+        <RadioButton
+            android:id="@+id/Letlhakane"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Letlhakane"
+            app:layout_constraintTop_toBottomOf="@+id/Serowe"
+            tools:layout_editor_absoluteX="2dp" />
+
+        <RadioButton
+            android:id="@+id/Orapa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Orapa"
+            tools:layout_editor_absoluteX="4dp"
+            tools:layout_editor_absoluteY="211dp" />
+
+
+        <RadioButton
+            android:id="@+id/Selebe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selebe-Phikwe" />
+
+        <RadioButton
+            android:id="@+id/Fransistown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fransistown" />
+
+        <RadioButton
+            android:id="@+id/Maun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Maun" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

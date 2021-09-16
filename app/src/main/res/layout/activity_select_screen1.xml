@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectScreenActivity1"
+    android:orientation="vertical"
+    android:background="@drawable/login">
+
+    <androidx.appcompat.widget.Toolbar
+
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pureBlack"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" >
+
+        <TextView
+
+            android:id="@+id/BunkTech"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Bunk Tech"
+            android:textColor="@color/pureWhite"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <Button
+        android:id="@+id/SelectTime"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:text="Select Time "
+        android:layout_gravity="right"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+
+        android:id="@+id/departure"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:text="Depature"
+        android:layout_gravity="right"/>
+
+
+    <Button
+        android:id="@+id/destination"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:text="Destination " />
+
+    <Button
+
+        android:id="@+id/SelectCompany"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:text="Select Company" />
+
+    <Button
+
+        android:id="@+id/SelectSeats"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:text="Select Seats" />
+
+</LinearLayout>

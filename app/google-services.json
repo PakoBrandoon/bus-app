@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "229640885903",
+    "firebase_url": "https://bunktech-2e271.firebaseio.com",
+    "project_id": "bunktech-2e271",
+    "storage_bucket": "bunktech-2e271.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229640885903:android:245268b35667703c6842fa",
+        "android_client_info": {
+          "package_name": "com.power.bunkTech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "229640885903-i6asmf4i580rfco7c810gnvgf3b6pp25.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANilriGumwhV-zqKnT98KF7ZXLNYkn4To"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "229640885903-i6asmf4i580rfco7c810gnvgf3b6pp25.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
